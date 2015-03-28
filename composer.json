@@ -1,0 +1,34 @@
+{
+  "name": "kleber/withoutatarce",
+  "description": "Kairos",
+  "license": "MIT-License",
+  "keywords": [
+    "framework",
+    "withoutatrace",
+    "zf2"
+  ],
+  "homepage": "https://github.com/kleberksms/withoutatrace",
+  "authors": [
+    {
+      "name": "Kleber Syd Moraes da Silva"
+    }
+  ],
+  "minimum-stability":"dev",
+  "require": {
+    "php": ">=5.3.3",
+    "zendframework/zendframework": "~2.3",
+    "doctrine/orm": "2.5.*@dev",
+    "doctrine/doctrine-orm-module": "0.9.*@dev"
+  },
+  "require-dev": {
+    "zendframework/zend-developer-tools": "dev-master",
+    "phpunit/phpunit": "4.*",
+    "mockery/mockery": "dev-master",
+    "squizlabs/php_codesniffer": "2.0.*@dev",
+    "sebastian/phpcpd": "2.0.*@dev",
+    "phpmd/phpmd": "dev-master",
+    "phploc/phploc": "2.1.*@dev",
+    "czproject/phpdepend": "dev-master",
+    "facebook/facebook-sdk-php-zf2": "dev-master"
+  }
+}
